@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="alioth"
+FDEVICE="psyche"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -42,8 +42,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	    export LC_ALL="C"
         export FOX_MANIFEST_VER="11.0"
  	    export ALLOW_MISSING_DEPENDENCIES=true
-	    export OF_TARGET_DEVICES="aliothin,alioth"
-	    export TARGET_DEVICE_ALT="aliothin"
+	    export OF_TARGET_DEVICES="psyche"
+	    #export TARGET_DEVICE_ALT=""
 	    export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER="1"
 
         #Debug

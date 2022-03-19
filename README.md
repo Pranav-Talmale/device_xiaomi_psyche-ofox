@@ -1,13 +1,13 @@
-# android_device_xiaomi_alioth-ofox
-For building OFRP for Xiaomi Mi 11X / Redmi K40 / POCO F3
+# android_device_xiaomi_psyche-ofox
+For building OFRP for Xiaomi Mi 12X
 
-OrangeFox device tree for Xiaomi Mi 11X / Redmi K40 / POCO F3
+OrangeFox device tree for Xiaomi Mi 12X
 
-The Xiaomi Mi 11X (codenamed _"aliothin"_) and Redmi K40 / POCO F3 (codenamed _"alioth"_) are mid range smartphones from Xiaomi.
+The Xiaomi Mi 12X (codenamed _"psyche"_) is a mid range smartphones from Xiaomi.
 
 ## Device specifications
 
-| Device       | Xiaomi Mi 11X / Redmi K40 / POCO F3         |
+| Device       | Xiaomi Mi 12X                               |
 | -----------: | :------------------------------------------ |
 | SoC          | Qualcomm SM8250 Snapdragon 870 5G           |
 | CPU          | 8x Qualcomm® Kryo™ 585 up to 2.84GHz        |
@@ -21,7 +21,7 @@ The Xiaomi Mi 11X (codenamed _"aliothin"_) and Redmi K40 / POCO F3 (codenamed _"
 
 ## Device picture
 
-![Xiaomi Mi 11X](https://i01.appmifile.com/webfile/globalimg/7/7BFCB70B-C506-E089-8591-9F2A15CA61FE.png)
+![Xiaomi Mi 12X](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-12x-2.jpg)
 
 ## Features
 
@@ -35,7 +35,7 @@ The Xiaomi Mi 11X (codenamed _"aliothin"_) and Redmi K40 / POCO F3 (codenamed _"
 - vA/B partition functions
 - Vibration
 
-Mi 11X / Redmi K40 / POCO F3 is using Virtual A/B Partition Scheme!
+Mi 12X is using Virtual A/B Partition Scheme!
 
 ## Compile
 
@@ -43,7 +43,7 @@ You can find a full compile guide for OrangeFox [Here](https://wiki.orangefox.te
 
 Lunch command :
 ```
-lunch twrp-alioth_eng && mka adbd bootimage
+lunch twrp-psyche_eng && mka adbd bootimage
 ```
 
 

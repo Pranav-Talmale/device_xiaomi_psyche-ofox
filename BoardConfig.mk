@@ -7,7 +7,7 @@
 BOARD_VENDOR := xiaomi
 BUILD_BROKEN_DUP_RULES := true
 
-DEVICE_PATH := device/xiaomi/alioth
+DEVICE_PATH := device/xiaomi/psyche
 
 # Inherit from sm8250-common
 #-include device/xiaomi/sm8250-common/BoardConfigCommon.mk

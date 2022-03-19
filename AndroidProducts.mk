@@ -3,9 +3,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_alioth.mk
+    $(LOCAL_DIR)/twrp_psyche.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_alioth-user \
-    twrp_alioth-userdebug \
-    twrp_alioth-eng
+    twrp_psyche-user \
+    twrp_psyche-userdebug \
+    twrp_pwyche-eng
