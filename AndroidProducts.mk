@@ -8,4 +8,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     twrp_psyche-user \
     twrp_psyche-userdebug \
-    twrp_pwyche-eng
+    twrp_psyche-eng
