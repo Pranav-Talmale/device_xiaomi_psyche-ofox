@@ -128,12 +128,6 @@ TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 
-# Vibrator
-TW_SUPPORT_INPUT_AIDL_HAPTICS := true
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/vendor.display.config@1.0.so \
