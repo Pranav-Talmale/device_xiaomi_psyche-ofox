@@ -25,7 +25,7 @@ The Xiaomi Mi 12X (codenamed _"psyche"_) is a mid range smartphones from Xiaomi.
 
 ## Features
 
-**Works**
+**Works** (The recovery tree is still a WiP, so all listed features may not work)
 
 - Booting.
 - **Decryption** (Android 11)
