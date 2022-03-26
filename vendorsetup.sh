@@ -62,7 +62,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	    #Magiskboot
 	    export OF_USE_MAGISKBOOT="1"
 	    export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
-	    export OF_PATCH_VBMETA_FLAG="1"
+	    #export OF_PATCH_VBMETA_FLAG="1"
 
 	    #Magisk
 	    export FOX_USE_SPECIFIC_MAGISK_ZIP="/home/pranav/Magisk/Magisk-v24.3.zip"
@@ -98,6 +98,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_ENABLE_APP_MANAGER=0
         export FOX_DELETE_AROMAFM="1"
         export OF_USE_GREEN_LED="0"
+	export OF_SKIP_FBE_DECRYPTION="1"
 
         #Maintainer Stuff
         export OF_MAINTAINER="Pranav Talmale"
